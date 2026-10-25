@@ -31,4 +31,4 @@ Browser -> DNS lookup (Cloudflare) -> A record -> EC2 public IP -> NGINX (port 8
 
 ## Screenshots
 
-![NGINX page](/Users/ahmadhazem/Desktop/docker-learning/networking/screenshots/landing-page.png)
+![NGINX page](https://github.com/ahmadh-1/docker-learning/blob/main/networking/screenshots/landing-page%20.png)
