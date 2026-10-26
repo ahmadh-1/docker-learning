@@ -1,6 +1,6 @@
 # Networking: Domain + EC2 + NGINX + DNS
 
-I bought a domain, launched an AWS EC2 instance running NGINX, and pointed the domain at the server with a DNS A record, so a page loads over my own domain name.
+I bought a domain, launched an AWS EC2 instance running NGINX, and pointed the domain at the server with a DNS A record, so a page loads over my own domain name. (Pictures shows in the "networking/screenshots" folder). 
 
 ## What I Built
 
