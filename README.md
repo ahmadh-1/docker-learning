@@ -9,14 +9,14 @@ I bought a domain, launched an AWS EC2 instance running NGINX, and pointed the d
 - Configured a security group to allow SSH (port 22) and HTTP (port 80)
 - Installed and started NGINX as the web server
 - Created an A record in Cloudflare pointing the domain to the EC2 public IP
-- Confirmed the NGINX landing page loads at http://<my-domain>
+- Confirmed the NGINX landing page loads at http://<nginx.ahmadh.co.uk>
 
 ### Bonus: wrote a small Flask app (app/app.py) to see how an application server differs from NGINX serving a default page
 
 Architecture
 Browser
 |
-| 1. "What is the IP for my-domain.com?"
+| 1. "What is the IP for nginx.ahmadh.co.uk?"
 v
 Cloudflare DNS (A record)
 |
