@@ -29,11 +29,17 @@ NGINX (listening on port 80) --> serves the landing page
 
 Steps
 1: Bought a domain on Cloudflare
+
 2: Launched an EC2 instance and created a key pair for SSH access
+
 3: Set up the security group with inbound rules for SSH (22) and HTTP (80)
+
 4: Connected over SSH and installed NGINX
+
 5: Started and enabled NGINX so it runs now and on reboot
+
 6: Created an A record in Cloudflare pointing to the instance's public IPv4
+
 7: Tested by visiting the domain in a browser and confirming the NGINX welcome page
 
 ## What I Learned
