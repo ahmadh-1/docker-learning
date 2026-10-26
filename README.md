@@ -27,7 +27,8 @@ EC2 instance (security group allows port 80)
 v
 NGINX (listening on port 80) --> serves the landing page
 
-Steps
+Steps:
+
 1: Bought a domain on Cloudflare
 
 2: Launched an EC2 instance and created a key pair for SSH access
@@ -41,6 +42,7 @@ Steps
 6: Created an A record in Cloudflare pointing to the instance's public IPv4
 
 7: Tested by visiting the domain in a browser and confirming the NGINX welcome page
+
 
 ## What I Learned
 
